@@ -1,8 +1,8 @@
-import React from 'react';
+import { useState, useEffect } from 'react'
 
 export default function TodosContainer(){
     return (
-        <div>
+        <div className='todosContainer'>
             <h1>TodosContainer</h1>
         </div>
     );
